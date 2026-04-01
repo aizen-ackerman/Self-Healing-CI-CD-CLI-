@@ -1,0 +1,6 @@
+.tools/
+venv/
+.venv/
+__pycache__/
+*.pyc
+self-healing-cicd-gitops/
