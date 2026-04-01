@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: self-healing-app
-          image: self-healing-app:v1
+          image: docker.io/aizenackerman/self-healing-cicd:latest
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 5000
